@@ -7,6 +7,7 @@ import { GrooupCard } from '@components/GroupCard';
 import { ListEmpty } from '@components/ListEmpty';
 
 import { Container } from './styles';
+import { Button } from '@components/Button';
 
 export function Groups() {
 
@@ -32,7 +33,8 @@ export function Groups() {
         contentContainerStyle={groups.length === 0 && {flex: 1}}
         ListEmptyComponent={() => <ListEmpty message="Cadastre a primeira turma!" />}
       />
-      
+
+      <Button title='Criar nova turma' activeOpacity={.5}/>
     </Container>
   );
 }
