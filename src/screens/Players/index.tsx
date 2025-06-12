@@ -1,6 +1,6 @@
 import { Header } from "@components/Header";
 import { ButtonIcon } from "@components/ButtonIcon";
-import { Hihtlight } from "@components/Highlight";
+import { Highlight } from "@components/Highlight";
 import { Input } from "@components/Input";
 import { Filter } from "@components/Filter";
 import { PlayerCard } from "@components/PlayerCard";
@@ -22,7 +22,7 @@ export function Players() {
         <Container>
             <Header showBackButton />
 
-            <Hihtlight
+            <Highlight
                 title="Nome da Turma"
                 subtitle="adicione a galera e separe os times"
             />
